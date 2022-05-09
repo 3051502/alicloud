@@ -1,3 +1,12 @@
+packer {
+  required_plugins {
+    alicloud = {
+      version = ">= 0.0.1"
+      source = "github.com/3051502/alicloud"
+    }
+
+  }
+}
 
 variable "access_key" {
   type = string
