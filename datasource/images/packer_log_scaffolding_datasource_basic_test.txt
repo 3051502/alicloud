@@ -1,0 +1,43 @@
+2022/05/06 23:51:01 [INFO] Packer version: 1.8.0 [go1.17.8 darwin arm64]
+2022/05/06 23:51:01 Old default config directory found: /Users/I558467/.packer.d
+2022/05/06 23:51:01 [TRACE] discovering plugins in /opt/homebrew/bin
+2022/05/06 23:51:01 Old default config directory found: /Users/I558467/.packer.d
+2022/05/06 23:51:01 [TRACE] discovering plugins in /Users/I558467/.packer.d/plugins
+2022/05/06 23:51:01 [DEBUG] Discovered plugin: alicloud = /Users/I558467/.packer.d/plugins/packer-plugin-alicloud
+2022/05/06 23:51:01 [INFO] found external [ecs] builders from alicloud plugin
+2022/05/06 23:51:01 [INFO] found external [import] post-processors from alicloud plugin
+2022/05/06 23:51:01 found external [images] datasource from alicloud plugin
+2022/05/06 23:51:01 [TRACE] discovering plugins in .
+2022/05/06 23:51:01 [INFO] PACKER_CONFIG env var not set; checking the default config file path
+2022/05/06 23:51:01 [INFO] PACKER_CONFIG env var set; attempting to open config file: /Users/I558467/.packerconfig
+2022/05/06 23:51:01 [WARN] Config file doesn't exist: /Users/I558467/.packerconfig
+2022/05/06 23:51:01 Old default config directory found: /Users/I558467/.packer.d
+2022/05/06 23:51:01 [INFO] Setting cache directory: /Users/I558467/.cache/packer
+2022/05/06 23:51:01 Old default config directory found: /Users/I558467/.packer.d
+2022/05/06 23:51:01 [TRACE] validateValue: not active for access_key, so skipping
+2022/05/06 23:51:01 [TRACE] validateValue: not active for secret_key, so skipping
+2022/05/06 23:51:01 [TRACE] Starting external plugin /Users/I558467/.packer.d/plugins/packer-plugin-alicloud start datasource images
+2022/05/06 23:51:01 Starting plugin: /Users/I558467/.packer.d/plugins/packer-plugin-alicloud []string{"/Users/I558467/.packer.d/plugins/packer-plugin-alicloud", "start", "datasource", "images"}
+2022/05/06 23:51:01 Waiting for RPC address for: /Users/I558467/.packer.d/plugins/packer-plugin-alicloud
+2022/05/06 23:51:01 Received unix RPC address for /Users/I558467/.packer.d/plugins/packer-plugin-alicloud: addr is /var/folders/_q/4skwt8895ln7dgcts5v8wdpm0000gn/T/packer-plugin849738133
+2022/05/06 23:51:01 packer-plugin-alicloud plugin: 2022/05/06 23:51:01 Plugin address: unix /var/folders/_q/4skwt8895ln7dgcts5v8wdpm0000gn/T/packer-plugin849738133
+2022/05/06 23:51:01 packer-plugin-alicloud plugin: 2022/05/06 23:51:01 Waiting for connection...
+2022/05/06 23:51:01 packer-plugin-alicloud plugin: 2022/05/06 23:51:01 Serving a plugin connection...
+2022/05/06 23:51:01 packer-plugin-alicloud plugin: 2022/05/06 23:51:01 [TRACE] starting datasource images
+2022/05/06 23:51:01 ui error: Error: Unsupported argument
+
+  on ./scaffolding_datasource_basic_test.pkr.hcl line 14:
+  (source code not available)
+
+An argument named "image_name" is not expected here.
+
+Error: Unsupported argument
+
+  on ./scaffolding_datasource_basic_test.pkr.hcl line 15:
+  (source code not available)
+
+An argument named "region" is not expected here.
+
+2022/05/06 23:51:01 [INFO] (telemetry) Finalizing.
+2022/05/06 23:51:02 waiting for all plugin processes to complete...
+2022/05/06 23:51:02 /Users/I558467/.packer.d/plugins/packer-plugin-alicloud: plugin process exited
