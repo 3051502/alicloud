@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	imageFilter "github.com/hashicorp/packer-plugin-alicloud/datasource/images"
+	imageFilter "github.com/3051502/packer-plugin-alicloud/datasource/images"
 
 	ecsbuilder "github.com/hashicorp/packer-plugin-alicloud/builder/ecs"
 	importpp "github.com/hashicorp/packer-plugin-alicloud/post-processor/alicloud-import"
